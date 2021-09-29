@@ -1,0 +1,43 @@
+.naslov{
+    text-align: center;
+    font-size: 28px;
+    color: grey;
+}	
+
+#naslovni_red{
+    background-color: white;
+    border-width: 1cm;
+}
+
+th{
+    border-style: groove;
+}
+
+tr:nth-child(even){
+    background-color: #E9ECEF;
+}
+
+.slika_grada{
+    width: 190px;
+    height: 100px;
+}
+
+/*
+.tabela{
+    margin: 5% 0% 10% 10%;
+    width: 80%;                ukupno sa lijevom i desnom marginom je 100%
+    height: 95%;
+}
+*/
+
+body{
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table{
+    width: 100%;
+    margin-top: 5%;
+}
+
