@@ -1,0 +1,67 @@
+body{
+  background-color: #000000f1;
+  
+}
+
+table{
+  /*border: 1px solid rgb(119, 119, 119);*/
+  border-collapse: collapse;
+  box-shadow: 2px 2px 12px rgba(180, 171, 171, 0.2), -1px -1px 8px rgba(172, 154, 154, 0.2);
+  border-radius: 10px;
+}
+
+th, td{
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#numbOfMovies{
+  color: rgba(250, 235, 215, 0.877);
+}
+
+#table_header{
+  color: rgba(250, 235, 215, 0.877);
+  
+}
+
+#my{
+  display: inline;
+  clear: left;
+  color: #7dd3d083;
+  font-style: italic;
+  font-family: "Lucida Calligraphy", cursive;
+}
+
+#Watchlist{
+  font-weight: bold;
+  display: inline;
+  clear: left;
+  position: relativ;
+  font-size: 1em;
+  color:  #15f4ee;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#dcf0ef); /*nece odraz dole*/
+  line-height: 0.80em;
+  text-shadow: 0 0 10px #15f4ee;
+}
+
+.btnAddMovie{
+  width: 150px;
+  padding: 10px;
+  font: 35px;
+  color: #15f4ee;
+  font-weight: 400;
+  border:2px solid #15f4ee;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #000000;
+  
+}
+
+.btnAddMovie:hover{
+  box-shadow: 0 0 10px #15f4ee inset, 0 0 10px #15f4ee ,
+              0 0 10px #15f4ee inset, 0 0 10px #15f4ee ;
+  text-shadow:0 0 20px #15f4ee, 0 0 10px #15f4ee ;
+}
